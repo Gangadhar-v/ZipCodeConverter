@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="12dp"
+    android:backgroundTint="#F0EEEE"
+    android:elevation="5dp"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:paddingHorizontal="5dp"
+            android:id="@+id/placeName"
+            android:textSize="25sp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:text="place name"
+            android:textStyle="bold"
+            android:textColor="#3F51B5"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+        <TextView
+            android:paddingHorizontal="5dp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:id="@+id/state"
+            android:layout_width="match_parent"
+            android:textSize="25sp"
+            android:gravity="left"
+            android:text="state"
+            android:textStyle="bold"
+            android:layout_height="40dp"/>
+        <TextView
+            android:id="@+id/longiDetails"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="longitude"
+            android:textSize="16sp"
+            android:gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
